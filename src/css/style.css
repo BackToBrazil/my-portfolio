@@ -1,3 +1,31 @@
-html{
-    background-color: red;
+.hero{
+    display: grid;
+    width: 1400px;
+    height: 1vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: max-content;
 }
+
+.hero-background{
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.hero-title{
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+/* .container{
+    display: grid;
+    width: 1400px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+} */
